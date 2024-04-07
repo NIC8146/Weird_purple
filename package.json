@@ -1,0 +1,34 @@
+{
+  "name": "weird-purple",
+  "displayName": "weird-purple",
+  "description": "weird purple theme",
+  "version": "0.0.1",
+  "publisher": "NIC8146",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NIC8146/Weird_purple.git"
+  },
+  "keywords": [
+    "theme",
+    "NIC8146",
+    "Weird_purple",
+    "NIC",
+    "nic",
+    "dark"
+  ],
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "weird purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/weird purple-color-theme.json"
+      }
+    ]
+  }
+}
